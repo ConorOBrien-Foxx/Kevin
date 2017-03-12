@@ -1,3 +1,4 @@
+#!/bin/bash
 node split.js $1
 jconsole gen.ijs
 header=header.cj
