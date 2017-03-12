@@ -23,4 +23,4 @@ GOTO EOF
     EXIT /B
 :EOF
 java %~n1
-DEL *.ckevin *.java *.class balance.py
+DEL *.ckevin *.java *.class

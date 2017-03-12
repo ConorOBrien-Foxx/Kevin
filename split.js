@@ -7,7 +7,7 @@ let nw = path.parse(a).name;
 let progs = fs.readFileSync(a).toString().split(/\$\$\$(?=\w+)/g);
 
 let end = () => {
-    fs.unlinkSync("splitat.hs");
+    // fs.unlinkSync("splitat.hs");
 }
 
 let recur = () => {
