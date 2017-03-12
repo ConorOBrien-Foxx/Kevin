@@ -1,7 +1,16 @@
 # Kevin
-Kevin is a language that is very much kevin. Just look at the languages used!
+Kevin is a language that is very much kevin. Just look at the languages used! (It's also in partial 
 
 Kevin can accept any valid Java program as input. It also has a predefined header, and allows for `#define` statements in the code.
+
+You can execute Kevin (currently on windows only) by running:
+
+    kevin <your file>
+
+## BUT WHY!??!?!
+Why not?
+
+---
 
 You can actually remove any of the following files, as they are generated while executing:
 
