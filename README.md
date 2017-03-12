@@ -3,9 +3,13 @@ Kevin is a language that is very much kevin. Just look at the languages used! (I
 
 Kevin can accept any valid Java program as input. It also has a predefined header, and allows for `#define` statements in the code.
 
-You can execute Kevin (currently on windows only) by running:
+You can execute Kevin on windows by running:
 
-    kevin <your file>
+    kevin [your file]
+
+On *nix:
+
+    ./kevin.sh [your file]
 
 ## BUT WHY!??!?!
 Why not?
