@@ -12,14 +12,12 @@ GOTO EOF
     TYPE %header% > %fn%.java
     ECHO.>>%fn%.java
     ECHO.#define T %fn%>>%fn%.java
-    ECHO.#define TT "%fn%">>%fn%.java
     TYPE "%~1">>%fn%.java
     cpp %fn%.java | ruby -ne "print$_ if$_[0]!=?#&&$_[1]" | python balance.py > temp.txt
     TYPE temp.txt > %fn%.java
     IF "%display%"=="display" TYPE temp.txt
     javac %fn%.java
     DEL temp.txt
-    @ECHO OFF
     EXIT /B
 :EOF
 java %~n1
