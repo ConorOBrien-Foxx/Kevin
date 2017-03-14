@@ -61,5 +61,6 @@
 #define rf(c,v) if(c) { K(v)
 #define FL(name,type,init,cond,aft) for(type name = init; cond; aft)
 #define FI(init,cond,aft) FL(i,int,init,cond,aft)
+#define FJ(init,cond,aft) FL(j,int,init,cond,j+=aft)
 #define CL(f) f(A.i())
 #define CJ(f,x) f(A.x())

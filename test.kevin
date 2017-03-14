@@ -1,3 +1,1 @@
-W sop(A.r(123)+q.z);
-$$$q
-pc q{psi z=3;}
+W sop(A.p(A.i()));
