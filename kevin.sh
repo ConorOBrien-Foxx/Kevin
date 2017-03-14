@@ -1,6 +1,7 @@
 #!/bin/bash
 node split.js $1
 jconsole gen.ijs
+cp stdlib.cj stdlib.ckevin
 header=header.cj
 for file in $(ls *.ckevin)
 do
@@ -12,7 +13,7 @@ do
     cpp $fn.java | ruby -ne "print\$_ if\$_[0]!=?#&&\$_[1]" | python balance.py > temp.txt
     cat temp.txt > $fn.java
     javac $fn.java
-    rm temp.txt
+    rm temp.txt $fn.java
 done
 java ${1%.*}
-rm *.ckevin *.java *.class
+rm *.ckevin *.class

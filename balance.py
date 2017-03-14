@@ -1,10 +1,13 @@
 import sys
 from collections import defaultdict
-p="()<>{}[]"
+p="(){}[]"
 d=defaultdict(int)
 y=sys.stdin.read()
 q=[]
+s=0
 for c in y:
+ if c in'"\'\\':s=1-s;continue
+ if s:continue
  try:
   i=p.index(c)
   w=i&1

@@ -5,6 +5,7 @@ IF "%2"=="/d" SET display=display
 REM generates a bunch of ckevin files
 node split.js %1
 jconsole gen.ijs
+COPY stdlib.cj stdlib.ckevin > nul
 FOR /f "tokens=* usebackq" %%F IN (`dir /s /b *.ckevin`) DO CALL :compile "%%F"
 GOTO EOF
 :compile "path"
@@ -17,8 +18,8 @@ GOTO EOF
     TYPE temp.txt > %fn%.java
     IF "%display%"=="display" TYPE temp.txt
     javac %fn%.java
-    DEL temp.txt
+    DEL temp.txt %fn%.java
     EXIT /B
 :EOF
 java %~n1
-DEL *.ckevin *.java *.class
+DEL *.ckevin *.class
